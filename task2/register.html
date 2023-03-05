@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Qeydiyyat</title>
+</head>
+<body>
+   <div class="register__form">
+      <h2>Qeydiyyat formu</h2>
+      <form action="">
+         <div>
+            <label for="email">elektron poçt:</label>
+            <input required name="email" id="email" placeholder="elektron poçtunuzu daxil edin" type="email">
+         </div>
+         <div>
+            <label for="password">Şifrə:</label>
+            <input name="password" required id="password" placeholder="şifrənizi daxil edin" type="password">
+         </div>
+         <div>
+            <label for="phone">Telefon nömrəsi:</label>
+            <input name="phone" required  placeholder="telefon nömrənizi daxil edin" id="phone" type="number">
+         </div>
+         <!-- <div>
+            <label for="phone">Telefon nömrəsi:</label>
+            <input name="phone" required  placeholder="telefon nömrənizi daxil edin" id="phone" type="tel"  pattern="[0-9]{10}">
+         </div> -->
+         <div>
+            <div>Cinsiniz:</div>
+            <label for="male">Kişi</label>
+            <input value="male" name="sex" type="radio">
+            <label for="female">Qadın</label>
+            <input required name="sex" id="female" type="radio">
+         </div>
+         <div>
+            <input name="work_status" required type="checkbox">
+            <label for="work_status">işsiz</label>
+         </div>
+         <button name="register" type="submit">Qeyd ol</button>
+      </form>
+   </div>
+</body>
+</html>
