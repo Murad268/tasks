@@ -245,7 +245,392 @@
 }
 
 
+
+.vivamus__wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ 
+}
+.vivamus__wrapper>div {
+ 
+  
+}
+.vivamus__image {
+   height: 474.08px;
+   width: 635px;
+}
+.vivamus__wrapper>div>img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+.vivamus__title {
+   font-family: var(--main-font-family);
+   font-size: 26px;
+   font-weight: 700;
+   letter-spacing: 0.5s;
+   line-height: 40px;
+   margin-bottom: 20px;
+   width: 100%;
+}
+.vivamus__desc {
+   width: 445px;
+}
+.vivamus__desc__desc {
+   letter-spacing: 0.5s;
+   line-height: 30px;
+   font-size: 16px;
+   color: var(--main-text-color-title-desc);
+   margin-bottom: 30px;
+   width: 100%;
+}
+.vivamus__desc__desc span {
+   color: var(--main-blue)
+}
+.vivamus__desc .custom__button {
+   background-color: var(--main-blue);
+   height: 35px;
+}
+.curabitur {
+   margin-top: 190px;
+}
+
+.curabitur__box__right__title, .curabitur__box__right__title {
+   font-family: var(--main-font-family);
+   color: var(--main-text-color-light);
+   font-weight: 700;
+   letter-spacing: 0.5px;
+   font-size: 26px;
+   line-height: 40px;
+   color: var(--main-text-color-title-dark)
+}
+.curabitur__desc {
+   width: 445px;
+}
+.curabitur__desc__title {
+   margin-bottom: 20px;
+}
+.curabitur__subtitle {
+   margin-bottom: 20px;
+}
+.curabitur__box {
+   margin-top: 30px;
+}
+.curabitur__box__logo {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%
+}
+.curabitur__box__logo img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+.curabitur__box__right {
+   width: 365px;
+}
+.curabitur__box__right__title {
+   font-size: 21px;
+   margin-bottom: 15px;
+}
+.curabitur__box__desc {
+   font-size: 16px;
+   letter-spacing: 0.5px;
+   color: var(--main-text-color-title-desc)
+}
+.curabitur__box {
+   display: flex;
+   justify-content: space-between;
+}
+.curabitur__wrapper {
+   display: flex;
+
+}
+
+.curabitur__image {
+   height: 503.611px;
+   width: 635px;
+}
+.curabitur__image>img {
+   height: 100%;
+   width: 100%;
+   object-fit: contain !important;
+}
+
+.carusel {
+   height: 713.108px;
+   background: var(--main-blue);
+   padding: 120px 0 90px 0;
+}
+.carusel>.container {
+   padding-left: 0;
+}
+.slick-track {
+   display: flex;
+   column-gap: 30px;
+
+} 
+.slick-slide {
+   padding: 40px 30px;
+   background: var(--main-text-color-light);
+   height: 395.085px;
+}
+.slick-dots li button:before {
+   color: var(--main-text-color-light) !important; /* Цвет точек */
+ }
+.slider__logo {
+   height: 100px;
+   width: 100px;
+   border-radius: 100%;
+   background: var(--main-blue);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+.slider__title {
+   font-family: var(--main-font-family);
+   color: var(--main-text-color-title-dark);
+   text-align: center;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 0.7px;
+   line-height: 21.6px;
+   margin-top: 20px;
+}
+.slider__desc {
+   font-family: var(--main-font-family);
+   color: var(--main-text-color-title-desc);
+   text-align: center;
+   font-size: 13px;
+   letter-spacing: 0.5px;
+   line-height: 25px;
+   margin-bottom: 20px;
+}
+.slider__button {
+   text-transform: uppercase;
+   text-decoration: none;
+   color: var(--main-text-color-light);
+   background: var(--main-blue);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 113.55px;
+   height: 43.4896px;
+   border-radius: 40px;
+   margin: 0 auto;
+   font-size: 13px   ;
+}
+
+.slider__arrow--prev, .slider__arrow--next  {
+   background: inherit; /* Цвет стрелок */
+   width: 60px;
+   height: 60px;
+   border-radius: 100%;
+   border: none;
+   background: rgba(0, 0, 0, 0.7)
+ }
+.slider__arrow--next {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: -60px;
+   z-index: 10;
+}
+.slider__arrow--prev {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: -60px;
+   z-index: 10;
+}
+
+
+.faq {
+   padding: 120px 0;
+}
+.faq__title {
+   font-family: var(--main-font-family);
+   color: var(--main-text-color-title-dark);
+   line-height: 57.6px;
+   font-size: 48px;
+   font-weight: 300;
+   text-align: center;
+   margin-bottom: 15px;
+}
+.faq__subtitle {
+   font-family: var(--main-font-family);
+   color: var(--main-text-color-title-desc);
+   width: 540px;
+   margin: 0 auto;
+   font-size: 17px;
+   line-height: 25px;
+   text-align: center;
+}
+
+.faq__wrapper {
+   margin-top: 70px;
+   display: flex;
+   column-gap: 40px;
+}
+.faq__wrapper>div {
+   flex: 1;
+}
+.faq__desc__title {
+   font-family: var(--main-font-family);
+   color: var(--main-text-color-title-dark);
+   font-weight: 700;
+   font-size: 26px;
+   letter-spacing: 0.5px;
+   line-height: 40px;
+}
+.faq__desc__desc {
+   font-family: var(--main-font-family);
+   color: var(--main-text-color-title-desc);
+   letter-spacing: 0.5px;
+   font-size: 16px;
+   line-height: 30px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.faq__button {
+   background-color: var(--main-blue);
+   margin-top: 20px;
+}
+.acordeon {
+	max-width: 100%;
+	background: white;
+	margin: 0 auto;
+
+  
+}
+
+.acordeon-cabecera {
+   display: flex;
+   justify-content: space-between;
+	color: var(--main-text-color-title-dark);
+	cursor: pointer;
+	font-weight: 600;
+	padding: 1.5rem;
+   background:#ECF1F6;
+   font-family: var(--main-font-family);
+}
+.acordeon-cabecera i {
+   font-weight: 900;
+   font-size: 20px;
+   transition: all 0.4s;
+}
+.acc__title__active {
+   color: var(--main-blue);
+}
+.active__arr {
+   transform: rotate(90deg);
+}
+.acordeon-cabecera:hover {
+	background: #fdf8d7;
+}
+
+.acordeon-cabecera.active {
+	background-color: #fdf8d7;
+}
+
+.acordeon-contenido {
+	display: none;
+   font-family: var(--main-font-family);
+	background: #fff;
+	padding: 1.4rem;
+	color: var(--main-text-color-title-desc);
+}
+
+.map__wrapper {
+   display: flex;
+}
+.map__wrapper>div {
+   flex: 1;
+}
+.map__wrapper iframe {
+   width: 100%;
+   height: 500px;
+   display: block;
+}
+.map__form {
+
+   
+   background-color: var(--main-blue)
+}
+.map__form>div {
+   padding: 100px;
+   box-sizing: border-box;
+}
+.map__form input, .map__form textarea {
+   background: rgba(0, 0, 0, 0.1);
+   border: none;
+   outline: none;
+   padding-left: 10px;
+}
+.map__form input {
+   width: calc(50% - 10px);
+   height: 50px;
+
+}
+.map__form input::placeholder {
+   color: var(--main-text-color-light);
+}
+.map__form textarea::placeholder {
+   color: var(--main-text-color-light);
+}
+.map__form textarea {
+   width: 100%;
+   height: 150px;
+ 
+   display: block;
+   margin: 30px auto 0 auto;
+   padding-top: 10px;
+}
+.map__form button {
+   text-transform: uppercase;
+   background-color: #F55858;
+   color: white;
+   font-size: 13px;
+   border: none;
+   height: 39.4965px;
+   width: 88.9757px;
+   border-radius: 40px;
+   display: block;
+   margin: 20px auto 0 auto;
+}
+.input__wrapper {
+
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
 @media(max-width: 992px) {
+   .map__wrapper {
+      flex-direction: column;
+   }
+   .faq__wrapper {
+      flex-direction: column;
+      row-gap: 70px;
+   }
+   .curabitur__wrapper {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 auto;
+   }
+   .curabitur__desc {
+      width: 100%;
+      margin: 20px auto 140px auto;
+   }
+   .curabitur__box {
+      width: 100%;
+      column-gap: 20px
+   }
+  .curabitur__box__right {
+   width: max-content;
+  }
    .navbar__links {
       display: none;
    }
@@ -256,10 +641,29 @@
       font-size: 36px;
       line-height: 50px;
    }
-
+   .vivamus__wrapper {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      height: 900px;
+   }
+   .vivamus__image {
+      width: 90%;
+      height: 380px;
+      margin: 70px 0 !important;
+   }
+   .vivamus__image>img {
+      object-fit: fill !important;
+   }
+   .curabitur__image {
+      width: 100%;
+   }
 }
 
 @media(max-width: 788px) {
+   .faq__button {
+      margin: 20px 0 0 0;
+   }
    .menu {
       width: 95vw;
    } 
@@ -267,10 +671,19 @@
       width: 80%;
       padding: 0;
    }
+
+
 }
 @media(max-width: 786px) {
+   .curabitur__desc {
+      margin: 20px 0;
+   }
    .header__body__wrapper {
+      
       flex-direction: column;
+   }
+   .vivamus__wrapper {
+      padding-top: 130px;
    }
    .header__body__desc__title, .header__body__desc__subtitle {
       text-align: center;
@@ -281,14 +694,61 @@
    .header {
       background-size: 100% 100%
    }
+   .faq__button {
+      margin: 20px 0 0 0;
+   }
+   
 }
 @media(max-width: 670px) {
+   .input__wrapper {
+      flex-direction: column;
+      row-gap: 30px;
+   }
+   .map__form>div {
+      padding: 60px !important;
+   }
+   .input__wrapper input {
+      width: 100%;
+   
+   }
+   .curabitur__image {
+      margin: 0;
+   }
+   .faq__title {
+      font-size: 28px;
+   }
    .navbar__logo a {
       font-size: 20px;
    }
-  
+
+   .vivamus__wrapper {
+      padding-top: 60px;
+      padding-top: 50px !important;
+   }
+ 
+
 }
 @media(max-width: 550px) {
+   .acordeon-cabecera {
+      font-size: 14px;
+   }
+   .acordeon-contenido {
+      font-size: 10px;
+   }
+   .faq__desc__title {
+      font-size: 18px;
+   }
+   .faq__desc__desc {
+      font-size: 14px;
+   }
+   .faq__title {
+      font-size: 28px;
+      width: 100%;
+   }
+   .faq__subtitle {
+     font-size: 15px;
+      width: 100%;
+   }
    .menu {
       width: 90vw;
    } 
@@ -303,6 +763,55 @@
       line-height: 22px;
    }
    .custom__button {
+      margin: 0;
       font-size: 10px;
+   }
+   .vivamus__desc {
+      width: 100%;
+      padding: 0 10px;
+   }
+   .vivamus__title {
+      font-size: 26px;
+   }
+   .vivamus__desc__desc {
+      font-size: 16px;
+   }
+   .faq__button {
+      margin: 20px 0 0 0;
+   }
+   .map__form>div {
+      padding: 30px !important;
+   }
+}
+@media(max-width: 788px) {
+
+   .vivamus__image {
+      width: 100% !important;
+
+   }
+   .vivamus__image img {
+      object-fit: contain !important;
+   }
+}
+@media(max-width: 400px) {
+   .vivamus__wrapper {
+      padding: 0 !important;
+      height: 800px;
+   }
+}
+@media(max-width: 350px) {
+   .vivamus__wrapper {
+      padding: 0 !important;
+      height: 800px;
+   }
+   .vivamus__title {
+      font-size: 20px;
+   }
+   .vivamus__desc__desc {
+      font-size: 13px;
+   }
+   .custom__button {
+ 
+      font-size: 7px;
    }
 }
