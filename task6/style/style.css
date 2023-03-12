@@ -9,7 +9,7 @@
 
 .header {
    background-image: url('../assets/images/banner-bg.png');
-   background-size: 100% 80%;
+   background-size: 100% 83%;
    background-repeat: no-repeat;
    height: 810px;
    position: relative;
@@ -95,8 +95,13 @@
 
 .dropdown {
    position: relative;
+   display: flex;
+   align-items: center
 }
-
+.dropdown i {
+   font-size: 7px;
+   margin-left: 8px;
+}
 .dropdown:hover .navbar__link__sub {
    opacity: 1;
    top: 40px;
@@ -176,6 +181,70 @@
    transition: transform 0.5s ease-out;
 
 }
+
+
+
+
+
+
+
+.custom__button {
+   text-transform: uppercase;
+   font-size: 13px;
+   letter-spacing: 0.25px;
+   line-height: 19.5px;
+   text-decoration: none;
+   width: 130px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #F55858;
+   border-radius: 30px;
+   color: var(--main-text-color-light)
+}
+
+
+.header__body__desc__title {
+   font-family: var(--main-font-family);
+   color: var(--main-text-color-light);
+   font-size: 64px;
+   letter-spacing: 1.4px;
+   line-height: 80px;
+   font-weight: 400;
+   margin-bottom: 30px;
+}
+.header__body__desc__title span {
+   font-weight: 700;
+}
+.header__body__desc__subtitle {
+   font-family: var(--main-font-family);
+   color: var(--main-text-color-light);
+   font-weight: 300;
+   font-size: 17px;
+   line-height: 30px;
+   letter-spacing: 0.25px;
+   margin-bottom: 30px;
+}
+.header__body__wrapper {
+   display: flex;
+   align-items: center;
+}
+.header__body__wrapper>div {
+   flex: 1;
+}
+.header__body__image {
+   height: 487.674px;
+   width: 100%;
+}
+
+.header__body__image img {
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+}
+
+
 @media(max-width: 992px) {
    .navbar__links {
       display: none;
@@ -183,6 +252,11 @@
    .navbar__hamburger {
       display: block;
    }
+   .header__body__desc__title {
+      font-size: 36px;
+      line-height: 50px;
+   }
+
 }
 
 @media(max-width: 788px) {
@@ -194,7 +268,20 @@
       padding: 0;
    }
 }
-
+@media(max-width: 786px) {
+   .header__body__wrapper {
+      flex-direction: column;
+   }
+   .header__body__desc__title, .header__body__desc__subtitle {
+      text-align: center;
+   }
+   .custom__button {
+      margin: 0 auto;
+   }
+   .header {
+      background-size: 100% 100%
+   }
+}
 @media(max-width: 670px) {
    .navbar__logo a {
       font-size: 20px;
@@ -208,5 +295,14 @@
    .menu a {
       font-size: 12px;
    }
-  
+   .header__body__desc__title {
+      font-size: 24px;
+   }
+   .header__body__desc__subtitle {
+      font-size: 14px;
+      line-height: 22px;
+   }
+   .custom__button {
+      font-size: 10px;
+   }
 }
